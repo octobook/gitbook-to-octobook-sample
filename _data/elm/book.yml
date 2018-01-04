@@ -1,0 +1,21 @@
+############################
+#  Book (Meta) Info
+
+title:   "An Introduction to Elm"
+author:
+  name:  "Evan Czaplicki"
+
+
+#############################
+#   Extras
+
+github:
+  url: https://github.com/evancz/guide.elm-lang.org
+
+
+######################
+#  Table of Contents
+
+contents:
+- title: 1. Introduction
+  path:  manuscript/README.md
