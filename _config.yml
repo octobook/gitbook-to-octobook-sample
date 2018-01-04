@@ -1,0 +1,43 @@
+###################
+# site / style settings
+
+title:  Fun Press - Free Books about Functional Programming in JavaScript 'n' Friends
+## use &amp; for html??  why? why not??
+##   e.g. Yuki &amp; Moto Press - Free Books about Ruby n Friends
+
+home:
+  url:   http://funpress.github.io     ## allow http:// and https:// w/ // works??
+  title: "=()=> Fun Press"
+
+
+style:
+  link_color: '#8b0000'    # use ruby-ish red  -- change to elm-ish color ??? use color from funpress??
+
+
+########################
+# build settings
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  style: expanded
+
+exclude:
+- README.md
+- .gitignore
+- Gemfile
+- Gemfile.lock
+- NOTES.md
+- manuscript
+
+
+plugins:
+- jekyll-remote-theme
+- jekyll-avatar
+
+
+remote_theme: octobook/books-twentyeighteen-theme
