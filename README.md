@@ -6,4 +6,7 @@ with book.yml and octobook book themes for jekyll
 
 
 
+See https://octobook.github.io/gitbook-to-octobook-sample
+
+
 ## Getting Started in 1-2-3 Easy Steps
