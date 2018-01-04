@@ -17,5 +17,6 @@ github:
 #  Table of Contents
 
 contents:
-- title: 1. Introduction
-  path:  manuscript/README.md
+
+# - title: 1. Introduction
+#  path:  manuscript/README.md
