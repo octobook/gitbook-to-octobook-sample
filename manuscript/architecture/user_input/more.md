@@ -1,4 +1,6 @@
-# More About User Input
+---
+title: More About User Input
+---
 
 We only covered buttons and text fields, but there are other crazier inputs that you will need eventually.
 

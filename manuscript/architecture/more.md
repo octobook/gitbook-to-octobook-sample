@@ -1,4 +1,6 @@
-# More about The Elm Architecture
+---
+title: More about The Elm Architecture
+---
 
 The emphasis of this section has been: **how can we get people making cool Elm projects as quickly and smoothly as possible?** So we covered:
 

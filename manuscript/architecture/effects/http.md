@@ -1,4 +1,6 @@
-# HTTP
+---
+title: HTTP
+---
 
 ---
 #### [Clone the code](https://github.com/evancz/elm-architecture-tutorial/) or follow along in the [online editor](http://elm-lang.org/examples/http).
@@ -127,5 +129,3 @@ This has been a very quick introduction, but the key idea is that you must (1) c
 >   - Show a message explaining why the image didn't change when you get an [`Http.Error`](http://package.elm-lang.org/packages/elm-lang/http/latest/Http#Error).
 >   - Allow the user to modify the `topic` with a text field.
 >   - Allow the user to modify the `topic` with a drop down menu.
-
-

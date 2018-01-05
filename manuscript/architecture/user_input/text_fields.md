@@ -1,4 +1,6 @@
-# Text Fields
+---
+title: Text Fields
+---
 
 ---
 #### [Clone the code](https://github.com/evancz/elm-architecture-tutorial/) or follow along in the [online editor](http://elm-lang.org/examples/field).

@@ -1,4 +1,6 @@
-# Web Sockets
+---
+title: Web Sockets
+---
 
 ---
 #### [Clone the code](https://github.com/evancz/elm-architecture-tutorial/) or follow along in the [online editor](http://elm-lang.org/examples/websockets).
@@ -90,4 +92,3 @@ viewMessage msg =
 The interesting parts are probably the uses of `WebSocket.send` and `WebSocket.listen`.
 
 For simplicity we will target a simple server that just echos back whatever you type. So you will not be able to have the most exciting conversations in the basic version, but that is why we have exercises on these examples!
-

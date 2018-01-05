@@ -2,6 +2,9 @@
 
 by [Evan Czaplicki](https://github.com/evancz)
 
+This is the original source formatted in a single-page book edition (using the [Manuscripts format](http://manuscripts.github.io)).
+
+
 
 * [Introduction](introduction.md)
 * [Install](install.md)

@@ -1,4 +1,6 @@
-# The Elm Architecture
+---
+title: The Elm Architecture
+---
 
 The Elm Architecture is a simple pattern for architecting webapps. It is great for modularity, code reuse, and testing. Ultimately, it makes it easy to create complex web apps that stay healthy as you refactor and add features.
 

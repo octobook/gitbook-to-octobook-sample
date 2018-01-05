@@ -1,4 +1,6 @@
-# Random
+---
+title: Random
+---
 
 ---
 #### [Clone the code](https://github.com/evancz/elm-architecture-tutorial/) or follow along in the [online editor](http://elm-lang.org/examples/random).
@@ -113,5 +115,3 @@ At this point, the best way to improve your understanding of commands is just to
 >
 >   - Instead of showing an image of a die face, use the `elm-lang/svg` library to draw it yourself.
 >   - After you have learned about tasks and animation, have the dice flip around randomly before they settle on a final value.
-
-

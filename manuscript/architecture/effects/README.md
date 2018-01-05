@@ -1,4 +1,6 @@
-# The Elm Architecture + Effects
+---
+title: The Elm Architecture + Effects
+---
 
 The last section showed how to handle all sorts of user input. You can think of those programs like this:
 
