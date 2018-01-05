@@ -1,66 +1,43 @@
----
-title: An Introduction to Elm
----
+# An Introduction to Elm
 
-**FIX:**  Change title to use "plain" markdown
+by [Evan Czaplicki](https://github.com/evancz)
 
 
-**Elm is a functional language that compiles to JavaScript.** It competes with projects like React as a tool for creating websites and web apps. Elm has a very strong emphasis on simplicity, ease-of-use, and quality tooling.
-
-This guide will:
-
-  - Teach you the fundamentals of programming in Elm.
-  - Show you how to make interactive apps with *The Elm Architecture*.
-  - Emphasize the principles and patterns that generalize to programming in any language.
-
-By the end I hope you will not only be able to create great web apps in Elm, but also understand the core ideas and patterns that make Elm nice to use.
-
-If you are on the fence, I can safely guarantee that if you give Elm a shot and actually make a project in it, you will end up writing better JavaScript and React code. The ideas transfer pretty easily!
-
-
-## A Quick Sample
-
-Of course *I* think Elm is good, so look for yourself.
-
-Here is [a simple counter](http://elm-lang.org/examples/buttons). If you look at the code, it just lets you increment and decrement the counter:
-
-```elm
-import Html exposing (Html, button, div, text)
-import Html.Events exposing (onClick)
-
-main =
-  Html.beginnerProgram { model = 0, view = view, update = update }
-
-type Msg = Increment | Decrement
-
-update msg model =
-  case msg of
-    Increment ->
-      model + 1
-
-    Decrement ->
-      model - 1
-
-view model =
-  div []
-    [ button [ onClick Decrement ] [ text "-" ]
-    , div [] [ text (toString model) ]
-    , button [ onClick Increment ] [ text "+" ]
-    ]
-```
-
-Notice that the `update` and `view` are entirely decoupled. You describe your HTML in a declarative way and Elm takes care of messing with the DOM.
+* [Introduction](introduction.md)
+* [Install](install.md)
+* [Core Language](core_language.md)
+* [The Elm Architecture](architecture/README.md)
+   * [User Input](architecture/user_input/README.md)
+       * [Buttons](architecture/user_input/buttons.md)
+       * [Text Fields](architecture/user_input/text_fields.md)
+       * [Forms](architecture/user_input/forms.md)
+       * [More](architecture/user_input/more.md)
+   * [Effects](architecture/effects/README.md)
+       * [Random](architecture/effects/random.md)
+       * [HTTP](architecture/effects/http.md)
+       * [Time](architecture/effects/time.md)
+       * [Web Sockets](architecture/effects/web_sockets.md)
+   * [More](architecture/more.md)
+* [Types](types/README.md)
+   * [Reading Types](types/reading_types.md)
+   * [Type Aliases](types/type_aliases.md)
+   * [Union Types](types/union_types.md)
+* [Error Handling and Tasks](error_handling/README.md)
+   * [Maybe](error_handling/maybe.md)
+   * [Result](error_handling/result.md)
+   * [Task](error_handling/task.md)
+* [Interop](interop/README.md)
+   * [JSON](interop/json.md)
+   * [JavaScript](interop/javascript.md)
+* [Scaling The Elm Architecture](reuse/README.md)
+   * [Labeled Checkboxes](reuse/checkboxes.md)
+   * [Radio Buttons](reuse/radio_buttons.md)
+   * [Modules](reuse/modules.md)
+   * [More](reuse/more.md)
 
 
-## Why a *functional* language?
+## Meta
 
-Forget what you have heard about functional programming. Fancy words, weird ideas, bad tooling. Barf. Elm is about:
+### Sources
 
-  - No runtime errors in practice. No `null`. No `undefined` is not a function.
-  - Friendly error messages that help you add features more quickly.
-  - Well-architected code that *stays* well-architected as your app grows.
-  - Automatically enforced semantic versioning for all Elm packages.
-
-No combination of JS libraries can ever give you this, yet it is all free and easy in Elm. Now these nice things are *only* possible because Elm builds upon 40+ years of work on typed functional languages. So Elm is a functional language because the practical benefits are worth the couple hours you'll spend reading this guide.
-
-I have put a huge emphasis on making Elm easy to learn and use, so all I ask is that you give Elm a shot and see what you think. I hope you will be pleasantly surprised!
+See the [original source](https://github.com/evancz/guide.elm-lang.org) repo.

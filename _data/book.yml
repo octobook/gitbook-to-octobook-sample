@@ -18,4 +18,8 @@ github:
 
 contents:
 - title: 1. Introduction
-  path:  README.md
+  path:  introduction.md
+- title: 2. Install
+  path:  install.md
+- title: 3. Core Language
+  path:  core_language.md
